@@ -1,0 +1,54 @@
+@CHARSET "ISO-8859-1";
+body
+{
+	margin: 0;
+	
+}
+#Cname
+{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	font-size: 270%;
+	padding: 2%;
+}
+
+
+#myDiv
+{
+	background:rgb(2, 94, 129);  
+	color:white;
+	overflow: hidden;
+	transition: all .5s ease;
+}
+
+#menu
+{
+	float: right;
+	transition: all .5s ease;
+}
+
+#menu > li > a
+{
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+	transition: all .5s ease;
+	font-family: arial;
+	font-size: 105%;	
+}
+
+#menu > li > a:hover
+{
+	background: rgb(0, 147, 204);
+	transition: all .5s ease;
+	
+	
+}
+
+#menu > li
+{
+	list-style: none;
+	display: inline;
+	transition: all .5s ease;
+}

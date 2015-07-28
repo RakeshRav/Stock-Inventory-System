@@ -1,0 +1,141 @@
+@CHARSET "ISO-8859-1";
+
+#label
+{
+	padding: 20px;
+	font-family: arial;
+	background: rgba(58, 65, 94, 0.58);
+	color: white;
+}
+
+.dashboard
+{
+	width: 75%;
+	margin: 0 auto;
+	 
+	padding: 7px;
+	padding-left : 10%;
+	overflow: hidden;
+}
+.saleProduct
+{
+	width: 40%;
+	background: white;
+	margin: 1%;
+	float: left;
+	 
+}
+.purchase
+{
+	
+	width: 40%;
+	background: white;
+	margin: 1% 0px 0px 4%;
+	float: left;
+	 
+}
+#outOfStock
+{
+	width: 50%;
+	background: white;
+	margin-left: 175px;	 
+}
+
+#sales
+{
+	background: rgba(0, 120, 201, 0.73);
+	margin-top : 6%;
+}
+#sales:HOVER
+{
+	background: #222 ;
+	
+}
+#purchase
+{
+	background: rgba(84, 53, 174, 0.4);
+	margin-top : 6%;	
+}
+#purchase:HOVER
+{
+	background: #222 ;
+	
+}
+#outStocks
+{
+	background: rgba(180, 39, 74, 0.71);	
+}
+#outStocks:HOVER
+{
+	background: #222 ;
+	
+}
+
+#todaySale
+{
+	background: rgba(159, 0, 167, 0.61);	
+}
+
+#todaySale:HOVER
+{
+	background: #222 ;
+	
+}
+#todayPurchase
+{
+	background: rgba(0, 145, 0, 0.65);	
+}
+#todayPurchase:HOVER
+{
+	background: #222 ;
+	
+}
+#saleHistory
+{
+	background: rgba(0, 147, 167, 0.53);	
+}
+#saleHistory:HOVER
+{
+	background: #222 ;
+	
+}
+
+#historyPurchase
+{
+	background: rgba(215, 79, 42, 0.75);	
+}
+
+#historyPurchase:HOVER
+{
+	background: #222 ;
+	
+}
+
+.button
+{
+	width: 100%;
+	font-size: 200%;
+	padding: 5%;
+	font-family: arial;
+	/* border-collapse: collapse; */
+	border: 1px solid  transparent;
+	color : white;
+	transition : all .5s ease;
+	border-radius: 3px;
+}
+
+.button:HOVER 
+{
+	background: #222 ;
+	color:white;
+	border: 1px solid #666666 ;
+	webkit-box-shadow: 0 1px 3px #666666;
+	-moz-box-shadow: 0 1px 3px #666666;
+	box-shadow: 0 1px 3px #666666;
+	cursor:pointer; 		
+}
+
+.textDec
+{
+	text-decoration: none;
+}
